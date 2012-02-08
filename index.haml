@@ -1,0 +1,106 @@
+!!! 5
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:name => "description", :content => ""}
+    %meta{:name => "viewport", :content => "width=device-width,initial-scale=1"}
+    
+    %link{:href => "http://fonts.googleapis.com/css?family=Wire+One", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Rokkitt:400,700", :rel => "stylesheet", :type => "text/css"}
+  
+    %link{:rel => "stylesheet", :href => "css/less.css"}
+    %link{:rel => "stylesheet", :href => "css/style.css"}
+
+    %script{ :type=> "text/javascript", :src =>"http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"}
+  
+    %title "Andreas Marschke - A design infused Geek"
+  %body        
+
+    .isBox#header
+      %h1 Design infused Geek
+    .isInset.isText#content-wrapper
+      .article#home
+        .frame.title
+          %h2 home
+        .frame.content
+          %p 
+            My name is Andreas Marschke. By day I'm an apprentice for systems integration. 
+            But by night I am a freesoftware enthusiast and hacker on a number of different 
+            and interesting topics.
+
+          %p
+            On this page you will find some basic information about who I am what 
+            I am interested in and what there is other than this page to find out about me.
+
+          This is a lot of banter for little of facts. Let's get down to some basic facts:
+          .inlist#facts
+            %ul
+              %li
+                Name: Andreas Marschke
+              %li
+                Age: 20
+              %li
+                Currently Location: Mönchengladbach, Germany
+              %li
+                Languages: Besides 
+                %a{:href => "#code"}
+                  %em some programming languages
+              , german and english
+              %li
+                OS: Debian GNU/Linux
+              %li
+                'got any trophies?
+                %a{:href => "http://www.coderwall.com/andreas-marschke"}
+                  Yup
+      .article#code
+        .frame.title
+          %h2 Code
+        .frame.content
+          %p
+            Thanks to my Job -- and because it tickles my fancy -- I did a reasonable 
+            amount programming. Here are a few of the programming languages and respective projects 
+            I produced in them:
+            .inlist#coding
+              %ul
+                %li
+                  Perl: To me, nothing beats the productivity and speed of development on a daily basis
+                  if you just want to punch out a simple script that does something well but is too complex
+                  to make it in simple shell. Here are some projects I created:
+                  .inlist#perl-coding
+                    %ul
+                      %li
+                        basically everything under
+                        %pre
+                          perl/
+                        in my
+                        %a{:href => "https://github.com/andreas-marschke/misc-tools/tree/master/perl"}
+                          misc-tools
+                        repository on Github. For the most part they are one-offs that where there to do
+                        something quickly.
+                      %li
+                        for work I thought it was a cool idea to have a
+                        %a{:href => ""}
+                          live graph of our monitoring system
+                        churning away on checks for our servers. It actually has a more complex story but this
+                        should do for now. 
+                      %li
+                        Since I like monitoring systems and knowing what is going on in my network I thought I 
+                        try playing around with 
+                        %a{:href => "http://nmap.org/"}
+                          nmap.
+                        But since that has only a commandline client and I would like to process stuff coming out
+                        of nmap I tried working with tools that would produce something usable. I used Perl for that
+                        (obviously). But I was unhappy with the state most of them were in and the features they 
+                        provided. Besides the quality of the modules most of them were either dead code or needed a 
+                        rewrite to do really fancy stuff with them. So 
+                        %a{:href => "https://github.com/andreas-marschke/libnet-nmap-perl"}
+                          I built my own.
+                      
+      .article#about
+        .frame.title
+          %h2 About Me
+        .frame.content
+          %p
+        
+    %script{:type => "text/javascript", :href => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+

@@ -6,15 +6,77 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Wire One', sans-serif;
 }
 h1 {
-	font-weight:100;
+	font-weight:700;
 }
 h2,h3,h4,h5 {
 	font-weight: 700;
 }
 
 body {
-	margin: 0 auto;
 	font-family: 'Rokkitt', serif; 
 	font-size: 16px;
+	background-image: url("../img/bg-27px.png"), url("../img/bg-39px.png"), url("../img/bg-57px.png");
+	
+	margin: 0 auto; 
 }
 
+.article  {
+	margin-top: -150;
+}
+
+.isBox {
+	margin-bottom: 1em;
+}
+
+.isText {
+	background-color:#E8E8E8;
+}
+
+.menu ul li {
+	list-style:none;
+}
+
+#content-wrapper {
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.menu {
+	position: absolute;
+	z-index: 2000;
+	width: 235px;
+	top: 50px;
+}
+
+.menu a {
+	color: #3C3C3C;
+	text-decoration:none;
+}
+
+.isInset {
+  	-webkit-box-shadow: 	0 0 6px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow:    	0 0 6px rgba(0, 0, 0, 0.15);
+      	box-shadow:         	0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.hasLowerShadow {
+	-webkit-box-shadow: 	0 8px 6px -6px black;
+	-moz-box-shadow: 	0 8px 6px -6px black;
+	box-shadow: 		0 8px 6px -6px black;
+}
+
+#header{
+		
+}
+
+.inlist ul li {
+	margin-left:1em;
+}
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
