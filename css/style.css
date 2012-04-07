@@ -35,8 +35,8 @@ header {
 	width: 100%;
 	height: 46px;
 	font-weight: bold;
-	background: #141414;
-	color: white;
+	background: black;
+	color: #aaa;
 	position: absolute;
 	margin-bottom: 46px;
 
@@ -149,4 +149,19 @@ a:hover {
 	background: #999;
 	color: white;
 	text-shadow: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+	.content {
+		width: 500px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.content {
+		width: 100%
+	}
 }
