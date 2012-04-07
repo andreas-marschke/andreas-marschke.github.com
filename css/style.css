@@ -56,6 +56,11 @@ a {
 	color: #333;
 	text-decoration: none;
 	font-weight:bold;
+	-moz-transition: all 0.218s ease-in;
+	-ms-transition: all 0.218s ease-in;
+	-o-transition: all 0.218s ease-in;
+	-webkit-transition: all 0.218s ease-in;
+	transition: all 0.218s ease-in;
 }
 
 a:visited { 
@@ -115,6 +120,7 @@ a:hover {
 
 .footer {
 	text-align: center;
+	margin-top: 24px;
 	padding-top: 13px;
 	padding-bottom: 2em;
 	background: black;
@@ -145,7 +151,7 @@ a:hover {
 	text-shadow: none;
 }
 
--moz-selection {
+::-moz-selection {
 	background: #999;
 	color: white;
 	text-shadow: none;
