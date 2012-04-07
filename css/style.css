@@ -113,6 +113,17 @@ a:hover {
 	width: 700px;
 }
 
+.footer {
+	text-align: center;
+	padding-top: 13px;
+	padding-bottom: 2em;
+	background: black;
+	color: #AAA;
+}
+
+.footer a {
+	color: #bbb;
+}
 #resume   ul li { list-style-type:none; }
 #about    ul li { list-style-type:none; }
 #projects ul li { list-style-type:none; }
@@ -139,6 +150,3 @@ a:hover {
 	color: white;
 	text-shadow: none;
 }
-
-
-
