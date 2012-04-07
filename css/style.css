@@ -87,14 +87,23 @@ a:hover {
 .top-list ul li a:hover {
 	color: white;
 	text-decoration: none;
-	border-bottom-width: 2px;	
+	border-bottom-width: 5px;	
 	border-bottom-style: solid;
 }
+
+.articles.top-list ul li a:hover { padding-bottom:12px; }
 
 .right { 
 	float: right;
 	margin-right:10px;
 }
+
+.right.top-list ul {
+	padding-top: 0px;
+	margin-top: 7px;
+}
+
+.right.top-list ul li a:hover {	border-bottom-width:5px; }
 
 .content {
 	margin:0 auto;
