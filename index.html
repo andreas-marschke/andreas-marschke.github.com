@@ -1,99 +1,147 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8"/>
-		<title></title>
-		<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" media="all" href="css/less.css"/>
-		<link rel="stylesheet" media="all" href="css/style.css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
-		
-	</head>
-	<body lang="en">
-		
-		<div class="frame">
-			<h1>Design infused Geek</h1>
-		</div>
-
-		<div class="top">
-	    <h2>An Introduction</h2>
-    </div>
-									  
-		<div class="content" id="intro">
-			<p>My name is Andreas Marschke. By day I'm an apprentice for systems integration at my lovely employer 
-			<a href="www.afterbuy.de">ViA Online ebay - Afterbuy</a>.If you live in Germany and use ebay once or twice,
-		 	you've probably seen our logo.</p>
-			<p>On this site I will talk a about myself, where I come from and what my interests are.
-			If you'd like to recieve a professional bio, please have a look on
-			my <a href="xing.com">xing page</a></p>
-			<p></p>
-			<p>I will keep most of the notes on here concise. If you'd like more than that please 
-			checkout my <a href="/blogs/">blog</a>. There I will ramble about the &mdash; mostly tech related &mdash;
-			things I care about at the moment</p>
-			<p></p>
-			<p>Please enjoy your stay!</p>
-		</div>
-
-		<div class="top">
-			<h2>Knowledge</h2>
-		</div>
-
-		<div class="content" id="knowledge">
-			<p>Here is a list of things I have learned and have been playing with in the past.</p>
-			<div id="knowledge-list" class="list">
-			<ul>
-				<li><em>Nagios or anything forked from it:</em><p>I use it at my job and have used it on and
-			 		off for private projects. See my <a href="misc-tools">misc-tools</a> repository for
-					some smaller tools revolving around nagios or anything else I needed. For a more advanced tool
-					I'm currently writing have a look at <a href="nagplot">nagplot</a>.</p>
-				</li>
-				<li><em>Mojolicious:</em><p> I love using it, I love writing code in it. For a non-blocking perl-based 
- 					web-framework for small and middle sized projects it's awesome.</p>
-				</li>
-				<li><em>Perl:</em><p> for a syntactically rather arcane programming language perl is awesome for just
-					punching out your everyday tool you need <b>right now</b> and <b>just for this one purpose</b>. This &mdash;
-					to me &mdash; makes it one of the most usefull languages in an everyday environment.</p>
-				</li>
-				<li><em>Debian GNU/Linux:</em> <p> In my previous apprentice ship I was employed by one of europes biggest
-					open source supporters. We primarely used Debian or derivatives of Debian in order to accomplish things.
-					This led to a intricate knowledge of the Debian GNU/Linux operating system which makes me a better admin
-					nowadays.</p>
-				</li>
-				<li><em>Webdesign:</em> <p><i>No.</i> This website is not themed by any wordpress plugin and not run by 
-					any thirdparty CMS based on any other programming language. This page is pure HTML,CSS and JavaScript.
-					This is one of my newest crushes in technology. I like designing. I like designing software and interfaces.
-				 	Theming things and building things. This page is one of them.</p>
-				</li>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Andreas Marschke</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/h5bp.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/lib/modernizr.custom.js"></script>
+  <script>Modernizr.load();</script>
+</head>
+<body>
+	<header>
+		<div class="right top-list">
+   		<ul>
+				<li><a href="https://github.com/andreas-marschke">Github</a></li>
+				<li><a href="https://www.xing.com/profile/Andreas_Marschke">Xing</a></li>
+				<li><a href="https://plus.google.com/109228313894541188962/about">G+</a></li>
 			</ul>
 		</div>
-		<div class="top">
-			<h2>Toolchest</h2>
+
+		<div class="articles top-list">
+			<ul>
+				<li> <a href="#about">About</a> </li>
+				<li> <a href="#projects">Projects</a> </li>
+				<li> <a href="#resume">Resume</a> </li>
+			</ul>	
 		</div>
-		<div class="content" id="toolchest">
-			<p>If you liked what I am and what I do maybe you want to go over to one of my projects and check them out.</p>
-			<div id="toolchest-list" class="list">
+	</header>
+	<div class="content" id="about">
+		<h1>About</h1>
+		<p>My name is Andreas Marschke. I'm an apprentice as an IT specialist for systems integration at an eBay affiliate and avid F/OSS user.</p>
+		<p>I do Perl and systems stuff concerned with scratching my own or my companies itches.</p>
+		<p>Here are a few stats:</p>
+		<ul>
+			<li><h2>General</h2>
 				<ul>
-					<li><em>Nagplot</em><p> A live monitoring frontend for Nagios or any other Monitoring service for that 
-						matter. Just put it in use the plugin and tell it which graphs you want. After that you can layback and
-						watch the graph go all day.</p>
-					</li>
-					<li><em>misc-tools</em><p>The type of script you punch out one dizzy, foggy night in april years ago
-						when you just wanted to see a single line on your screen telling you one specific thing.</p>
-					</li>
-					<li><em>emacs-config</em><p>I like my EMACS. I like my emacs <em>a lot</em> when developing more than just
-				 		simple scripts in Perl.</p>
-					</li>
-					<li><em>dotfiles</em> <p> Everything including the kitchen sink that fires my day to day console experience.
-						</p>
-					</li>
-					<li><em>libnet-nmap-perl</em> <p> A library I thought to develop a while ago in order to have a nicer 
-						more OOP-alike frontend that is easily usable.</p>
-					</li>
+					<li><em>Name:</em> Andreas Marschke</li>
+					<li><em>Age:</em> 20</li>
+					<li><em>Location:</em> Mönchengladbach, North Rhine-Westphalia</li>
+					<li><em>Birthday:</em> 23.09.1991</li>
 				</ul>
-			</div>
-		</div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	</body> 
+			</li>
+			<li><h2>Technical</h2>
+				<ul>
+					<li><em>Linux User since:</em>mid 2008</li>
+					<li><em>Perl User since:</em> 2009</li>
+					<li><em>Developer since:</em> 2005</li>
+					<li><em>Debian User since:</em> 2010</li>
+					<li><em>Apprentice as Systems Integrator:</em> fall 2010 - mid 2013</li>
+				</ul>
+			</li>
+			<li> <h2>Social</h2>
+				<ul>
+					<li><em>Favourite Music:</em> Rock/Metal</li>
+					<li><em>Fav. Music during Work/Coding:</em> Sludge and Stoner because you can emerse in it and ignore the surrounding and concentrate beautifully on your coding work </li>
+					<li><em>Fav. Movies:</em> Goodfellas, Scarface, A Bronx Tale</li>
+					<li><em>Fav. TV-Shows:</em> Daily Show and Colbert Report because they are available over the web. Otherwise I don't watch TV that much.</li>
+
+				</ul>
+			</li>
+			<li></li>
+
+		</ul>
+	</div>
+
+	<div class="content" id="projects">
+		<h1>Projects</h1>
+		<p>Whilst scratching my own itch and solving problems arising over time I created a few projects that I work on in my free time.</p>
+		<ul>
+			<li><img class="icon" alt="hosted on Github.com" src="img/github_alt.png"></img><a href="https://github.com/andreas-marschke/nagplot"><h2 class="hasIcon">nagplot</h2></a>
+				<p>After receiving a revelation at work that most of our co-workers that shared on-call jobs with us admins didn't know or see that we had a tool for graphing our servers in place I decided to create nagplot.</p>
+				<p>It is meant to be run on bigger screensizes as a live graphing web application to keep an eye on the servers and their current states.</p>
+				<p>The plan is to deploy this next to a <a href="http://www.nagios.org/">Nagios</a>/<a href="https://www.icinga.org/">Icinga</a>/<a href="http://www.shinken-monitoring.org/">Shinken</a> installation with a minimum setup and configuration overhead and start graphing your environment as space and time efficient as possible</p>
+				<p>The core service is written in Perl and flexible as to what it takes as a backing monitoring infrastructure as long as it is parseable by Perl or even better has Perl bindings.<p>
+				<p></p>
+				<p> <a href="https://github.com/andreas-marschke/nagplot">Read More »</a></p>
+		</li>
+			<li><img class="icon" alt="hosted on Github.com" src="img/github_alt.png"></img><a href="https://github.com/andreas-marschke/libnet-nmap-perl"><h2 class="hasIcon">Net::Nmap</h2></a>
+				<p>A small wrapper around the nmap executable. It is designed to act as much as the normal nmap as possible.</p>
+				<p>Modules from within Net::Nmap can be used for themselfs and in conjunction with others.</p>
+				<p>My Use-Case was automated network/asset scanning of hosts attached to a network in order to find what services and vulnerabillities they had. </p>
+				<p>A handy tool if you suffer from much too much handy work to get up and running on monitoring hnew hosts on your network.</p>
+				<p></p>
+				<p> <a href="https://github.com/andreas-marschke/libnet-nmap-perl">Read More »</a></p>
+			</li>
+			<li><img class="icon" alt="hosted on Github.com" src="img/github_alt.png"></img><h2 class="hasIcon">QBM</h2>
+				<p>An alternative init system for unicese. Designed to be very parrelized and ultra fast. Having more the lure of an init system tofor a settop box than
+				your average dynamically changing init system.</p>
+				<p>Designing a box top to bottom setup to be a replacement HTPC for my livingroom I wanted it to be as fast booting as possible. Munging around in classic
+				<code>sysv-init</code> or BSD's <code>rc.d-init</code> was not of interest for me.</p>
+				<p>Besides that I felt it was interesting to start and hack on an initsystem for once.</p>
+				<p></p>
+				<p> <a href="https://github.com/andreas-marschke/QBM">Read More »</a></p>
+			</li>
+		</ul>	
+	</div>
+
+	<div class="content" id="resume">
+		<h1>Resume</h1>
+		<p> If you want to have a full length CV for your company or a customer to peruse please take the one
+			on Github <a href="https://github.com/andreas-marschke/Resume/blob/master/resume.tex">Github</a> and 
+			build a pdf from it. Or download the <a href="doc/pdf/resume.pdf">PDF</a> version of it here(WARNING: This may
+			not be as uptodate as the one on Github).</p>
+		<h2> Competencies </h2>
+		<ul>
+			<h3> Programming Languages </h3>
+			<li><p>Programming in a variety of Programming Languages from "C-derived" Languages to "Pascal-derived"
+		 			Languages and LISPian dialects. Following is a list of them and what I have used them for:</p>
+					<ul>
+						<li><p><em>C:</em> Basic C coding for a basic UNIX init system that is faster and more sufficiant for an HTPC booting quickly and beautifully<p>
+						</li>
+						<li><p><em>C++:</em> development of GUI applications on a cross plattform basis using Qt and KDE libraries for a variety of tasks.</p></li>
+						<li><p><em>C#:</em> used for the development of a virtualized drumpad at that time only available as a hardware device leveraging the .Net 2.0 framework and DirectSound</p></li>
+						<li><p><em>JavaScript:</em> used for a live visualization of Data in a perl web project using <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as an MVC and <a>rickshaw.js</a> as a SVG-Graphing library</p></li>
+						<li><p><em>Perl:</em> My personel lingua franca and favourite scripting language. Used for Web/Server/Desktop development mainly with Mojolicious. Otherwise used as a handy tool for day to day automation as an admin or for simple webscraping tasks that do go beyond the usual sed/grep/awk toolchain, because it would be too complex.</p></li>
+						<li><p><em>Shell(bash and sh):</em> usually taken as a scripting language for automation or simple scripting concerning initialization of a tasks, services and building fullblown Operating Systems</p></li>
+						<li><p><em>Elisp:</em> As a <a href="http://www.gnu.org/software/emacs/">GNU EMACS</a> user it is normal to write the configuration and applications for it in Elisp I personally developed a binding to mocp from EMACS</li>
+						<li><p><em>Delphi:</em> As a student and a intern I used this language to support and enhance a legacy application internal to the company I had my internship with</p></li>
+					</ul>
+			</li>
+			<h3>Operating Systems</h3>
+			<li><p>During my time as admin apprentice and privately I used a variety of Operating Systems to manage and provide services to customers or myself:</p>
+				<ul>
+					<li><p><em>Windows:</em> Starting out as a small time developer I learned programming on a Windows XP System using Visual Studio</p></li>
+					<li><p><em>OpenSuse:</em> since version 10.3 it was my personal Desktop and my entry into the World of *NIX based systems</p></li>
+					<li><p><em>Debian:</em> Recommended to me by my first employer/internship coordinator I started learning to use Debian and got interested in packaging applications</p></li>
+					<li><p><em>CentOS:</em> for a quick deployment of a standard application with only a minimal amount of configuration CentOS is one of the easiest to use linuxicys We use it at my current apprenticeship for fast setup and 
+						installation of evaluated software or webservers concerned with caching</p></li>
+					<li><p><em>Windows Server:</em> since my current apprenticeship is in a large ASP.Net based service provider I have to manage a great amount of uptodate or older windows servers. Mostly 2k8 R2 these days though</p></li>
+				</ul>
+			</li>
+			<h3>Hardware Systems</h3>
+			<li><p>Through my current job I came in contact with a lot of hardware and subsequent solutions to our problems</p>
+				<ul>
+					<li><p><em>HP DLxxx Servers:</em> We are a customer of HP systems and use a lot of heir hardware from Storage to Server technology and have been happy for most of the time with their solutions</p></li>
+					<li><p><em>Cisco Switches:</em> Having completed the DHomesB Curriculum and using them for work as Ethernet Switches I used and administrated a couple of generations of their switching technology</p></li>
+				</ul>
+			</li>
+		</ul>
+	</ul>
+	</div>
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif+Caption' rel='stylesheet' type='text/css'>
+</body>
 </html>

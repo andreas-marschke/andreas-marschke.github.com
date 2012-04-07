@@ -1,20 +1,133 @@
-p { 
-	margin-bottom: 1.5em;
+/* Author Andreas Marschke (c) 2012 */
+html { overflow-y:scroll; }
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	background: white;
+	color: black;
+	padding: 0px;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: 'Wire One', sans-serif;
+h1, h2, h3, h4 { 
+	font-family: 'PT Serif Caption', serif;
+	font-weight: 400;
 }
-h1 {
-	font-weight:100;
-}
-h2,h3,h4,h5 {
+
+h1 { font-size: 46px; }
+
+h2 { 
+	font-size: 28px; 
+	font-weight: 700;
+}	
+
+h3 { font-size: 24px; }
+
+h4 {
+	font-size: 18px;
 	font-weight: 700;
 }
 
-body {
-	margin: 0 auto;
-	font-family: 'Rokkitt', serif; 
+header {
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 46px;
+	font-weight: bold;
+	background: #141414;
+	color: white;
+	position: absolute;
+	margin-bottom: 46px;
+
+}
+
+em {
+	font-style:normal;
+	font-weight: bold;
+}
+
+ul li a h2 {
+	color: black;
+	text-decoration:none;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a:visited { 
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: black;
+	text-decoration: none; 
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.top-list ul { padding-left:0px; }
+.top-list ul li {
+	list-style-type: none;
+	list-style: none;
+	display: inline;
+	padding-left:10px;
+}
+
+.top-list ul li a {
+	text-decoration: none;
+	color: white;
 	font-size: 16px;
 }
+
+.top-list ul li a:hover {
+	color: white;
+	text-decoration: none;
+	border-bottom-width: 2px;	
+	border-bottom-style: solid;
+}
+
+.right { 
+	float: right;
+	margin-right:10px;
+}
+
+.content {
+	margin:0 auto;
+	margin-top: 6em;
+	width: 700px;
+}
+
+#resume   ul li { list-style-type:none; }
+#about    ul li { list-style-type:none; }
+#projects ul li { list-style-type:none; }
+
+#projects .hasIcon {
+	padding-left:40px;
+	padding-top: 8px;
+}
+
+#projects .icon {
+	width:32px;
+	height:32px;
+	float:left;
+}
+
+::selection {
+	background: #999;
+	color: white;
+	text-shadow: none;
+}
+
+-moz-selection {
+	background: #999;
+	color: white;
+	text-shadow: none;
+}
+
+
 
