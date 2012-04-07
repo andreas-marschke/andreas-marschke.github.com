@@ -6,8 +6,12 @@ My personal webpage to introduce myself to the public.
 License 
 ==========
 
-* Github Icon:
+* Github Icon dark: 
  * justVector: Free Art License
+	http://www.alexpeattie.com/projects/justvector_icons/
+* Github Icon light:
+ * modified by Andreas Marschke
+ * Original justVector: Free Art License
 	http://www.alexpeattie.com/projects/justvector_icons/
 
 * Glider
