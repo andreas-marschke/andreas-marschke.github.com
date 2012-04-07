@@ -10,6 +10,12 @@ License
  * justVector: Free Art License
 	http://www.alexpeattie.com/projects/justvector_icons/
 
+* Glider
+ * not copyrighted
+   http://www.catb.org/~esr/faqs/hacker-howto.html
+   http://www.catb.org/hacker-emblem/
+   http://www.catb.org/hacker-emblem/faqs.html
+
 * h5bp.css:
  * normalize.css: Public Domain
 	http://necolas.github.com/normalize.css/
