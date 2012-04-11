@@ -56,11 +56,12 @@ a {
 	color: #333;
 	text-decoration: none;
 	font-weight:bold;
-	-moz-transition: all 0.218s ease-in;
+/*	-moz-transition: all 0.218s ease-in;
 	-ms-transition: all 0.218s ease-in;
 	-o-transition: all 0.218s ease-in;
 	-webkit-transition: all 0.218s ease-in;
 	transition: all 0.218s ease-in;
+*/
 }
 
 a:visited { 
