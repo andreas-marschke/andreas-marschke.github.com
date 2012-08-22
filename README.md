@@ -9,10 +9,15 @@ License
 * Github Icon dark: 
  * justVector: Free Art License
 	http://www.alexpeattie.com/projects/justvector_icons/
+
 * Github Icon light:
  * modified by Andreas Marschke
  * Original justVector: Free Art License
 	http://www.alexpeattie.com/projects/justvector_icons/
+
+* Pattern for body-background
+  Subtle Patterns: 
+	http://subtlepatterns.com/translucent-fibres/
 
 * Glider
  * not copyrighted

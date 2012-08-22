@@ -5,7 +5,8 @@ body {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 16px;
-	background: white;
+	background-image: url("../img/striped_lens.png");
+	background-repeat: repeat;
 	color: black;
 	padding: 0px;
 }
@@ -119,6 +120,14 @@ a:hover {
 	width: 700px;
 }
 
+.wrapper { 
+	width: 720px;
+	margin: 0 auto;
+	background: white;
+	padding: 5px 5px 5px 5px;
+	box-shadow: 0px 1px 15px black;
+}
+
 .footer {
 	text-align: center;
 	margin-top: 24px;
@@ -131,6 +140,7 @@ a:hover {
 .footer a {
 	color: #bbb;
 }
+
 #resume   ul li { list-style-type:none; }
 #about    ul li { list-style-type:none; }
 #projects ul li { list-style-type:none; }
