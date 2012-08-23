@@ -6,24 +6,24 @@
     <loc>http://www.andreas-marschke.name/</loc>
     <lastmod>2012-04-01</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
+    <priority>1</priority>
   </url>
   <url>
     <loc>http://www.andreas-marschke.name/#about</loc>
     <lastmod>2012-04-01</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>1.2</priority>
+    <priority>3</priority>
   </url>
   <url>
     <loc>http://www.andreas-marschke.name/#projects</loc>
     <lastmod>2012-04-01</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>1.1</priority>
+    <priority>2</priority>
   </url>
   <url>
     <loc>http://www.andreas-marschke.name/#resume</loc>
     <lastmod>2012-04-01</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+    <priority>1</priority>
   </url>
 </urlset>
