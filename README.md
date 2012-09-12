@@ -17,7 +17,7 @@ License
 
 * Pattern for body-background
   Subtle Patterns: 
-	http://subtlepatterns.com/translucent-fibres/
+	http://subtlepatterns.com/subtle-grey/
 
 * Glider
  * not copyrighted
