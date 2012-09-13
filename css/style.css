@@ -81,7 +81,7 @@ a:hover {
 .top-list ul li {
 	list-style-type: none;
 	list-style: none;
-	display: inline;
+	display: inline-block;
 	padding-left:10px;
 }
 
@@ -166,6 +166,38 @@ a:hover {
 	background: #999;
 	color: white;
 	text-shadow: none;
+}
+
+/* Image Classes */
+
+.grid-image { 
+        height: 32px;
+        width: 32px;
+}
+
+.image-github-alt { 
+        background-image: url("../img/grid.png");
+        background-position: 0px 0px;
+}
+
+.image-github { 
+        background-image: url("../img/grid.png");
+        background-position: 32px 0px;
+}
+
+.image-lastfm {  
+        background-image: url("../img/grid.png");
+        background-position: 0px 40px;
+}
+
+.image-xing {  
+        background-image: url("../img/grid.png");
+        background-position: -32px 32px;
+}
+
+.image-gplus { 
+        background-image: url("../img/grid.png");
+        background-position: 64px 0px;
 }
 
 

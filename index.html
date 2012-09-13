@@ -18,10 +18,18 @@
 	<header>
 		<div class="right top-list">
    		<ul>
-				<li><a href="https://github.com/andreas-marschke"><img src="img/github_grey.png"></img></a></li>
-				<li><a href="https://www.xing.com/profile/Andreas_Marschke"><img src="img/xing_grey.png"></img></a> </li>
-				<li><a href="https://plus.google.com/109228313894541188962/about"><img src="img/google_plus_grey.png" ></img></a></li>
-				<li><a href="http://www.last.fm/user/XxtjaxX"><img src="img/lastfm_grey.png"></img></a></li>
+				<li><a href="https://github.com/andreas-marschke">
+	                            <div class="grid-image image-github"></div>
+	                        </a></li>
+				<li><a href="https://www.xing.com/profile/Andreas_Marschke">
+	                           <div class="grid-image image-xing"></div>
+	                        </a></li>
+				<li><a href="https://plus.google.com/109228313894541188962/about">
+	                           <div class="grid-image image-gplus"></div>
+	                        </a></li>
+				<li><a href="http://www.last.fm/user/XxtjaxX">
+	                           <div class="grid-image image-lastfm"></div>
+	                        </a></li>
 			</ul>
 		</div>
 
@@ -75,15 +83,15 @@
 		<h1>Projects</h1>
 		<p>Whilst scratching my own itch and solving problems arising over time I created a few projects that I work on in my free time.</p>
 		<ul>
-			<li><img class="icon" alt="hosted on Github.com" src="img/github_alt.png"></img><a href="https://github.com/andreas-marschke/nagplot"><h2 class="hasIcon">nagplot</h2></a>
+			<li><div class="grid-image image-github-alt"><a href="https://github.com/andreas-marschke/nagplot"><h2 class="hasIcon">nagplot</h2></a></div>
 				<p>After receiving a revelation at work that most of our co-workers that shared on-call jobs with us admins didn't know or see that we had a tool for graphing our servers in place I decided to create nagplot.</p>
 				<p>It is meant to be run on bigger screensizes as a live graphing web application to keep an eye on the servers and their current states.</p>
 				<p>The plan is to deploy this next to a <a href="http://www.nagios.org/">Nagios</a>/<a href="https://www.icinga.org/">Icinga</a>/<a href="http://www.shinken-monitoring.org/">Shinken</a> installation with a minimum setup and configuration overhead and start graphing your environment as space and time efficient as possible</p>
 				<p>The core service is written in Perl and flexible as to what it takes as a backing monitoring infrastructure as long as it is parseable by Perl or even better has Perl bindings.<p>
 				<p></p>
 				<p> <a href="https://github.com/andreas-marschke/nagplot">Read More »</a></p>
-		</li>
-			<li><img class="icon" alt="hosted on Github.com" src="img/github_alt.png"></img><a href="https://github.com/andreas-marschke/libnet-nmap-perl"><h2 class="hasIcon">Net::Nmap</h2></a>
+	                </li>
+			<li><div class="grid-image image-github-alt"><a href="https://github.com/andreas-marschke/libnet-nmap-perl"><h2 class="hasIcon">Net::Nmap</h2></a></div>
 				<p>A small wrapper around the nmap executable. It is designed to act as much as the normal nmap as possible.</p>
 				<p>Modules from within Net::Nmap can be used for themselfs and in conjunction with others.</p>
 				<p>My Use-Case was automated network/asset scanning of hosts attached to a network in order to find what services and vulnerabillities they had. </p>
@@ -91,7 +99,7 @@
 				<p></p>
 				<p> <a href="https://github.com/andreas-marschke/libnet-nmap-perl">Read More »</a></p>
 			</li>
-			<li><img class="icon" alt="hosted on Github.com" src="img/github_alt.png"></img><h2 class="hasIcon">QBM</h2>
+			<li><div class="grid-image image-github-alt"><h2 class="hasIcon">QBM</h2></div>
 				<p>An alternative init system for unicese. Designed to be very parrelized and ultra fast. Having more the lure of an init system tofor a settop box than
 				your average dynamically changing init system.</p>
 				<p>Designing a box top to bottom setup to be a replacement HTPC for my livingroom I wanted it to be as fast booting as possible. Munging around in classic
