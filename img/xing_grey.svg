@@ -13,8 +13,11 @@
    height="32"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="xing_grey.svg">
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="xing_grey.svg"
+   inkscape:export-filename="/home/andreas/src/web/andreas-marschke.github.com/img/xing_grey.png"
+   inkscape:export-xdpi="720"
+   inkscape:export-ydpi="720">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -28,12 +31,12 @@
      inkscape:cx="48.202852"
      inkscape:cy="8.9399905"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3878"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1438"
-     inkscape:window-height="880"
+     inkscape:window-width="1436"
+     inkscape:window-height="873"
      inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="0" />
@@ -45,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,7 +65,7 @@
          inkscape:connector-curvature="0"
          id="path3102"
          d="m 220.147,407.16682 11.8916,0 5.79334,12.19652 -9.45229,16.77019 -11.8916,0 8.84247,-17.38002 z"
-         style="fill:#313131;fill-opacity:1;stroke:none" />
+         style="fill:#808080;fill-opacity:1;stroke:none" />
       <path
          inkscape:connector-curvature="0"
          id="path3108"

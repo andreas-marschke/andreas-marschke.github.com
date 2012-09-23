@@ -171,8 +171,9 @@ a:hover {
 /* Image Classes */
 
 .grid-image { 
-        height: 32px;
-        width: 32px;
+       height: 32px;
+       width: 32px;
+       background-size: 100%; 
 }
 
 .image-github-alt { 
@@ -182,22 +183,22 @@ a:hover {
 
 .image-github { 
         background-image: url("../img/grid.png");
-        background-position: 32px 0px;
+        background-position: 0px -32px; 
 }
 
 .image-lastfm {  
         background-image: url("../img/grid.png");
-        background-position: 0px 40px;
+        background-position: 0px -96px;
 }
 
 .image-xing {  
         background-image: url("../img/grid.png");
-        background-position: -32px 32px;
+        background-position: 0px -128px ;
 }
 
 .image-gplus { 
         background-image: url("../img/grid.png");
-        background-position: 64px 0px;
+        background-position: 0px -66px;
 }
 
 
