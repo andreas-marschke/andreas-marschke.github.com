@@ -193,13 +193,20 @@ a:hover {
 
 .image-xing {  
         background-image: url("../img/grid.png");
-        background-position: 0px -128px ;
+        background-position: 0px -160px ;
 }
 
 .image-gplus { 
         background-image: url("../img/grid.png");
         background-position: 0px -66px;
 }
+
+.image-wordpress { 
+        background-image: url("../img/grid.png");
+        background-position: 0px -128px;
+}
+
+
 
 /* blindly but well knowingly copied from twitter bootstrap */
 .btn {

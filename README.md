@@ -18,6 +18,8 @@ License
 * Pattern for body-background
   Subtle Patterns: 
 	http://subtlepatterns.com/subtle-grey/
+* Wordpress Logo
+  http://wordpress.org/about/logos/
 
 * Glider
  * not copyrighted
