@@ -178,32 +178,37 @@ a:hover {
 
 .image-github-alt { 
         background-image: url("../img/grid.png");
-        background-position: 0px 0px;
+        background-position: 0px 190px;
+}
+
+.image-coderwall { 
+        background-image: url("../img/grid.png");
+        background-position: 0px 0px; 
 }
 
 .image-github { 
         background-image: url("../img/grid.png");
-        background-position: 0px -32px; 
+        background-position: 0px 158px; 
 }
 
 .image-lastfm {  
         background-image: url("../img/grid.png");
-        background-position: 0px -94px;
+        background-position: 0px 94px;
 }
 
 .image-xing {  
         background-image: url("../img/grid.png");
-        background-position: 0px -158px ;
+        background-position: 0px 32px ;
 }
 
 .image-gplus { 
         background-image: url("../img/grid.png");
-        background-position: 0px -66px;
+        background-position: 0px 128px;
 }
 
 .image-wordpress { 
         background-image: url("../img/grid.png");
-        background-position: 0px -126px;
+        background-position: 0px 63px;
 }
 
 
