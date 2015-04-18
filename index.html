@@ -8,6 +8,37 @@
     <meta name="author" content="Andreas Marschke"/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
+    <script>
+      (function(){
+      if(window.BOOMR && window.BOOMR.version){return;}
+      var dom,doc,where,iframe = document.createElement('iframe');
+      iframe.src = "javascript:false";
+      iframe.title = ""; iframe.role="presentation";
+      (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
+      where = document.getElementsByTagName('script')[0];
+      where.parentNode.insertBefore(iframe, where);
+
+      try {
+      doc = iframe.contentWindow.document;
+      } catch(e) {
+      dom = document.domain;
+      iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
+      doc = iframe.contentWindow.document;
+      }
+      doc.open()._l = function() {
+      var js = this.createElement("script");
+      if(dom) this.domain = dom;
+      js.id = "boomr-if-as";
+      js.src = '//c.go-mpulse.net/boomerang/' +
+      '47YHL-HBRU7-Z5B2P-XKDDD-T2R9K';
+      BOOMR_lstart=new Date().getTime();
+      this.body.appendChild(js);
+      };
+      doc.write('<body onload="document._l();">');
+      doc.close();
+      })();
+    </script>
+
     <link rel="icon" href="http://www.catb.org/hacker-emblem/glider.png" type="image/x-icon"/>
     <link rel="stylesheet" href="css/h5bp.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -20,7 +51,7 @@
   	  <li><a href="https://coderwall.com/andreas-marschke" title="Andreas Marschke on Coderwall">
 	      <div class="grid-image image-coderwall"></div>
 	  </a></li>
-	  
+
 	  <li><a href="https://github.com/andreas-marschke" title="Andreas Marschke on Github">
 	      <div class="grid-image image-github"></div>
 	  </a></li>
@@ -43,7 +74,7 @@
 	  <li> <a href="#about">About</a> </li>
 	  <li> <a href="#projects">Projects</a> </li>
 	  <li> <a href="#resume">Resume</a> </li>
-	</ul>	
+	</ul>
       </div>
     </header>
     <div class="wrapper">
@@ -55,11 +86,11 @@
 	    specialist for systems integration at an eBay affiliate and
 	    avid F/OSS user.
 	  </p>
-	  
+
 	  <p>
 	    I do Perl and systems stuff concerned with scratching my
 	    own or my companies itches.
-	  </p> 
+	  </p>
 
 	  <p>Here are a few stats:</p>
 	  <ul>
@@ -72,7 +103,7 @@
 		  <em>Age:</em> 20
 		</li>
 		<li>
-		  <em>Location:</em> 
+		  <em>Location:</em>
 		  <a href="http://g.co/maps/rvca7">Mönchengladbach, North Rhine-Westphalia</a>
 		</li>
 		<li>
@@ -105,7 +136,7 @@
 		  <em>Fav. TV-Shows:</em> Daily Show and Colbert
 		  Report because they are available over the
 		  web. Otherwise I don't watch TV that much.
-		</li> 
+		</li>
 	      </ul>
 	    </li>
 	  </ul>
@@ -124,7 +155,7 @@
 		co-workers that shared on-call jobs with us admins
 		didn't know or see that we had a tool for graphing our
 		servers in place I decided to create nagplot.
-	      </p> 
+	      </p>
 	      <p>
 		It is meant to be run on bigger screensizes as a live
 		graphing web application to keep an eye on the servers
@@ -144,7 +175,7 @@
 		as long as it is parseable by Perl or even better has
 		Perl bindings.
 	      </p>
-	      
+
 	      <p> <a class="fancy" href="https://github.com/andreas-marschke/nagplot">Read More »</a></p>
 	    </li>
 	    <li><div class="grid-image image-github-alt"><a href="https://github.com/andreas-marschke/libnet-nmap-perl"><h2 class="hasIcon">Net::Nmap</h2></a></div>
@@ -164,13 +195,13 @@
 	      <p></p>
 	      <p> <a class="fancy" href="https://github.com/andreas-marschke/QBM">Read More »</a></p>
 	    </li>
-	  </ul>	
+	  </ul>
 	</div>
 
 	<div class="content" id="resume">
 	  <h1>Resume</h1>
 	  <p> If you want to have a full length CV for your company or a customer to peruse please take the one
-	    on Github <a href="https://github.com/andreas-marschke/Resume/blob/master/resume.tex">Github</a> and 
+	    on Github <a href="https://github.com/andreas-marschke/Resume/blob/master/resume.tex">Github</a> and
 	    build a pdf from it. Or download the <a href="doc/pdf/resume.pdf">PDF</a> version of it here(WARNING: This may
 	    not be as uptodate as the one on Github).</p>
 	  <h2> Competencies </h2>
@@ -196,7 +227,7 @@
 		<li><p><em>Windows:</em> Starting out as a small time developer I learned programming on a Windows XP System using Visual Studio</p></li>
 		<li><p><em>OpenSuse:</em> since version 10.3 it was my personal Desktop and my entry into the World of *NIX based systems</p></li>
 		<li><p><em>Debian:</em> Recommended to me by my first employer/internship coordinator I started learning to use Debian and got interested in packaging applications</p></li>
-		<li><p><em>CentOS:</em> for a quick deployment of a standard application with only a minimal amount of configuration CentOS is one of the easiest to use linuxicys We use it at my current apprenticeship for fast setup and 
+		<li><p><em>CentOS:</em> for a quick deployment of a standard application with only a minimal amount of configuration CentOS is one of the easiest to use linuxicys We use it at my current apprenticeship for fast setup and
 		    installation of evaluated software or webservers concerned with caching</p></li>
 		<li><p><em>Windows Server:</em> since my current apprenticeship is in a large ASP.Net based service provider I have to manage a great amount of uptodate or older windows servers. Mostly 2k8 R2 these days though</p></li>
 	      </ul>
@@ -220,6 +251,3 @@
 </div>
 </body>
 </html>
-
-
-
