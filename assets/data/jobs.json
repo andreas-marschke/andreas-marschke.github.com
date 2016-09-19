@@ -1,0 +1,26 @@
+[
+    {
+	"name": "Systems Administrator/Integrator in Training",
+	"company": "Credativ GmbH",
+	"logo": "http://activeinternetmarketing.co.uk/wp-content/themes/Feather%203/assets/images/case-studies/credativ-logo.png",
+	"description": "/assets/data/jobs.credativ.html",
+	"begin": 2010,
+	"end": 2011
+    },
+    {
+	"name": "Systems Administrator/Integrator in Training",
+	"company": "ViA Online GmbH",
+	"logo": "https://www.xing.com/img/custom/cp/assets/logo/d/4/1/27969/logo/xing_logo_ebay20140304-23681-1ameygy.jpg",
+	"description": "/assets/data/jobs.ebay.html",
+	"begin": 2011,
+	"end": 2015
+    },
+    {
+	"name": "Software Engineer",
+	"company": "SOASTA International Inc.",
+	"logo": "https://www.soasta.com/wp-content/uploads/2015/05/soasta-logo_thumb.jpg",
+	"description": "/assets/data/jobs.soasta.html",
+	"begin": 2015,
+	"end": "now"
+    }
+]

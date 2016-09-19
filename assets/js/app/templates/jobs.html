@@ -1,0 +1,22 @@
+<div class="row">
+  <ul class="list-unstyled list-inline">
+    <li class="active"><a href="#jobs/">Jobs</a></li>
+    <li><a href="#projects/">Projects</a></li>
+  </ul>
+</div>
+<div class="row">
+  <div class="col-md-offset-2 col-md-6">
+    <ul class="list-unstyled">
+      <% _.each(jobs, function(job) { %>
+      <li>
+	<span><em>Position:</em> <%= job.name %></span></br>
+	<span><em>Company Name:</em> <%= job.company %></span></br>
+	<img src="<%= job.logo %>" style="max-width: 300px; max-height: 100px;" /></br>
+	<p><%= job.description %></p>
+	<p><em>From:</em> <%= job.begin %> <em>Until:</em> <%= job.end %></p>
+      </li>
+      <hr/>
+      <% }); %>
+    </ul>
+  </div>
+</div>

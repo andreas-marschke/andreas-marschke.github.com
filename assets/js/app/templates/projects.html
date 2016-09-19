@@ -1,0 +1,26 @@
+<div class="row">
+  <ul class="list-unstyled list-inline list-center">
+    <li><a href="#jobs/">Jobs</a></li>
+    <li class="active"><a href="#projects/">Projects</a></li>
+  </ul>
+</div>
+</div>
+<% _.each(projects, function(project) { %>
+<div class="row">
+  <div class="col-md-12">
+    <div class="page-header">
+      <h1><%= project.name %> <small></small></h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <%= project.description %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-offset-4 col-md-4">
+    <a class="btn btn-primary btn-xl btn-block" href="<%= project.url %>">Go!</a>
+  </div>
+</div>
+<% }); %>

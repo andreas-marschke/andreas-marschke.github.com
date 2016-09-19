@@ -1,0 +1,13 @@
+[
+    {
+	"name": "express-session-multicast",
+	"url": "http://github.com/andreas-marschke/express-session-multicast",
+	"description": "/assets/data/projects.esm.html",
+	"image": ""
+    },
+    {
+	"name": "nagios-nrpe",
+	"url": "http://github.com/stockholuniversity/nagios-nrpe",
+	"description": "/assets/data/projects.nnrpe.html"
+    }
+]

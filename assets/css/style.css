@@ -1,0 +1,9 @@
+.thumbnail .wide-thumb {
+  overflow: hidden;
+  max-height: 230px;
+  border-bottom: solid 1px #ccc;
+}
+
+.thumbnail .wide-thumb img {
+  max-width: 100%;
+}

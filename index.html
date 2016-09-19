@@ -2,252 +2,173 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Andreas Marschke - Coding for fun, Opsing for profit</title>
-    <meta name="description" content="Andreas Marschke developer administrator hacker web enthusiast "/>
-    <meta name="keywords" content="Linux, Perl, C, C++, Resume, HTML, Web, Network, Andreas, Marschke"/>
+    <title>Andreas Marschke - Software is fun!</title>
+    <meta name="description" content="Andreas Marschke - Personal Website on the Web simple profile"/>
+    <meta name="keywords" content="Linux, Perl, C, C++, JS, Boomerang, Android, Java, Performance, Resume, HTML, Web, Network, Andreas, Marschke"/>
     <meta name="author" content="Andreas Marschke"/>
     <meta name="robots" content="all"/>
     <meta name="viewport" content="width=device-width"/>
-    <script>
-      (function(){
-      if(window.BOOMR && window.BOOMR.version){return;}
-      var dom,doc,where,iframe = document.createElement('iframe');
-      iframe.src = "javascript:false";
-      iframe.title = ""; iframe.role="presentation";
-      (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
-      where = document.getElementsByTagName('script')[0];
-      where.parentNode.insertBefore(iframe, where);
-
-      try {
-      doc = iframe.contentWindow.document;
-      } catch(e) {
-      dom = document.domain;
-      iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
-      doc = iframe.contentWindow.document;
-      }
-      doc.open()._l = function() {
-      var js = this.createElement("script");
-      if(dom) this.domain = dom;
-      js.id = "boomr-if-as";
-      js.src = '//c.go-mpulse.net/boomerang/' +
-      '47YHL-HBRU7-Z5B2P-XKDDD-T2R9K';
-      BOOMR_lstart=new Date().getTime();
-      this.body.appendChild(js);
-      };
-      doc.write('<body onload="document._l();">');
-      doc.close();
-      })();
-    </script>
-
     <link rel="icon" href="http://www.catb.org/hacker-emblem/glider.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/h5bp.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif+Caption' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="screen" />
+    <script>
+     (function(){
+	 if (window.BOOMR && window.BOOMR.version) { return; }
+         var dom,doc,where,iframe = document.createElement("iframe"),win = window;
+
+	 function boomerangSaveLoadTime(e) {
+	     win.BOOMR_onload=(e && e.timeStamp) || new Date().getTime();
+         }
+	 if (win.addEventListener) {
+	     win.addEventListener("load", boomerangSaveLoadTime, false);
+	 } else if (win.attachEvent) {
+	     win.attachEvent("onload", boomerangSaveLoadTime);
+	 }
+
+	 iframe.src = "javascript:void(0)";
+	 iframe.title = ""; iframe.role = "presentation";
+	 (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
+         where = document.getElementsByTagName("script")[0];
+	 where.parentNode.insertBefore(iframe, where);
+
+	 try {
+	     doc = iframe.contentWindow.document;
+         } catch(e) {
+	     dom = document.domain;
+	     iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
+	     doc = iframe.contentWindow.document;
+	 }
+	 doc.open()._l = function() {
+	     var js = this.createElement("script");
+	     if (dom) { this.domain = dom; }
+	     js.id = "boomr-if-as";
+	     js.src = "//localhost:8080/concerto/boomerang/" +
+		      "H78FJ-YDU5L-T4PWT-6PJQM-ACMUT";
+	     BOOMR_lstart=new Date().getTime();
+	     this.body.appendChild(js);
+	 };
+	 doc.write('<body onload="document._l();">');
+	 doc.close();
+     })();
+    </script>
   </head>
-  <body>
-    <header>
-      <div class="right top-list">
-	<ul>
-  	  <li><a href="https://coderwall.com/andreas-marschke" title="Andreas Marschke on Coderwall">
-	      <div class="grid-image image-coderwall"></div>
-	  </a></li>
-
-	  <li><a href="https://github.com/andreas-marschke" title="Andreas Marschke on Github">
-	      <div class="grid-image image-github"></div>
-	  </a></li>
-	  <li><a href="https://www.xing.com/profile/Andreas_Marschke" title="Andreas Marschke on Xing">
-	      <div class="grid-image image-xing"></div>
-	  </a></li>
-	  <li><a href="https://plus.google.com/109228313894541188962/about" title="Andreas Marschke on G+">
-	      <div class="grid-image image-gplus"></div>
-	  </a></li>
-	  <li><a href="http://www.last.fm/user/XxtjaxX" title="Andreas Marschke on last.fm">
-	      <div class="grid-image image-lastfm"></div>
-	  </a></li>
-	  <li><a href="http://andreasmarschke.wordpress.com" title="Andreas Marschke blogging">
-	      <div class="grid-image image-wordpress"></div>
-	  </a></li>
-	</ul>
-      </div>
-      <div class="articles top-list">
-	<ul>
-	  <li> <a href="#about">About</a> </li>
-	  <li> <a href="#projects">Projects</a> </li>
-	  <li> <a href="#resume">Resume</a> </li>
-	</ul>
-      </div>
-    </header>
-    <div class="wrapper">
-      <div class="content">
-	<div class="content" id="about">
-	  <h1>About</h1>
-	  <p>
-	    My name is Andreas Marschke. I'm an apprentice as an IT
-	    specialist for systems integration at an eBay affiliate and
-	    avid F/OSS user.
-	  </p>
-
-	  <p>
-	    I do Perl and systems stuff concerned with scratching my
-	    own or my companies itches.
-	  </p>
-
-	  <p>Here are a few stats:</p>
-	  <ul>
-	    <li><h2>General</h2>
-	      <ul>
-		<li>
-		  <em>Name:</em> Andreas Marschke
-		</li>
-		<li>
-		  <em>Age:</em> 20
-		</li>
-		<li>
-		  <em>Location:</em>
-		  <a href="http://g.co/maps/rvca7">Mönchengladbach, North Rhine-Westphalia</a>
-		</li>
-		<li>
-		  <em>Birthday:</em> 23.09.1991
-		</li>
-	      </ul>
-	    </li>
-	    <li>
-	      <h2>Technical</h2>
-	      <ul>
-		<li><em>Linux User since:</em>mid 2008</li>
-		<li><em>Perl User since:</em> 2009</li>
-		<li><em>Developer since:</em> 2005</li>
-		<li><em>Debian User since:</em> 2010</li>
-		<li><em>Apprentice as Systems Integrator:</em> fall 2010 - mid 2013</li>
-	      </ul>
-	    </li>
-	    <li>
-	      <h2>Social</h2>
-	      <ul>
-		<li><em>Favourite Music:</em> Rock/Metal</li>
-		<li><em>Fav. Music during Work/Coding:</em> Sludge and
-		Stoner because you can emerse in it and ignore the
-		surrounding and concentrate beautifully on your coding
-		work </li>
-		<li>
-		  <em>Fav. Movies:</em> Goodfellas, Scarface, A	Bronx Tale
-		</li>
-		<li>
-		  <em>Fav. TV-Shows:</em> Daily Show and Colbert
-		  Report because they are available over the
-		  web. Otherwise I don't watch TV that much.
-		</li>
-	      </ul>
-	    </li>
+  <body>    
+    <nav class="navbar navbar-invert">
+      <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+	    <span class="sr-only">Toggle Navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="/index.html">Andreas Marschke</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse">
+	  <ul class="nav navbar-nav navbar-right">
+	    <li class="active"><a href="/index.html">Main</a></li>
+	    <li><a href="/portfolio.html">Portfolio</a></li>
+	    <li><a href="/social.html">Contact</a></li>
 	  </ul>
 	</div>
-	<div class="content" id="projects">
-	  <h1>Projects</h1>
-	  <p>
-	    Whilst scratching my own itch and solving problems
-	    arising over time I created a few projects that I work on in
-	    my free time.
-	  </p>
-	  <ul>
-	    <li><div class="grid-image image-github-alt"><a href="https://github.com/andreas-marschke/nagplot"><h2 class="hasIcon">nagplot</h2></a></div>
-	      <p>
-		After receiving a revelation at work that most of our
-		co-workers that shared on-call jobs with us admins
-		didn't know or see that we had a tool for graphing our
-		servers in place I decided to create nagplot.
-	      </p>
-	      <p>
-		It is meant to be run on bigger screensizes as a live
-		graphing web application to keep an eye on the servers
-		and their current states.
-	      </p>
-	      <p>
-		The plan is to deploy this next to
-		a <a href="http://www.nagios.org/">Nagios</a>/<a href="https://www.icinga.org/">Icinga</a>/
-		<a href="http://www.shinken-monitoring.org/">Shinken</a>
-		installation with a minimum setup and configuration
-		overhead and start graphing your environment as space
-		and time efficient as possible
-	      </p>
-	      <p>
-		The core service is written in Perl and flexible as to
-		what it takes as a backing monitoring infrastructure
-		as long as it is parseable by Perl or even better has
-		Perl bindings.
-	      </p>
-
-	      <p> <a class="fancy" href="https://github.com/andreas-marschke/nagplot">Read More »</a></p>
-	    </li>
-	    <li><div class="grid-image image-github-alt"><a href="https://github.com/andreas-marschke/libnet-nmap-perl"><h2 class="hasIcon">Net::Nmap</h2></a></div>
-	      <p>A small wrapper around the nmap executable. It is designed to act as much as the normal nmap as possible.</p>
-	      <p>Modules from within Net::Nmap can be used for themselfs and in conjunction with others.</p>
-	      <p>My Use-Case was automated network/asset scanning of hosts attached to a network in order to find what services and vulnerabillities they had. </p>
-	      <p>A handy tool if you suffer from much too much handy work to get up and running on monitoring hnew hosts on your network.</p>
-	      <p></p>
-	      <p> <a class="fancy" href="https://github.com/andreas-marschke/libnet-nmap-perl">Read More »</a></p>
-	    </li>
-	    <li><div class="grid-image image-github-alt"><h2 class="hasIcon">QBM</h2></div>
-	      <p>An alternative init system for unicese. Designed to be very parrelized and ultra fast. Having more the lure of an init system tofor a settop box than
-		your average dynamically changing init system.</p>
-	      <p>Designing a box top to bottom setup to be a replacement HTPC for my livingroom I wanted it to be as fast booting as possible. Munging around in classic
-		<code>sysv-init</code> or BSD's <code>rc.d-init</code> was not of interest for me.</p>
-	      <p>Besides that I felt it was interesting to start and hack on an initsystem for once.</p>
-	      <p></p>
-	      <p> <a class="fancy" href="https://github.com/andreas-marschke/QBM">Read More »</a></p>
-	    </li>
-	  </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+	<div class="col-md-12">
+	  <div class="page-header">
+	    <h1>Andreas Marschke <small>Software Developer</small></h1>
+	  </div>
 	</div>
+      </div>
+      <div class="row">
+	<div class="col-md-12">
+	  <blockquote>
+	    <p>Hi there!</p>
+	    <p>This is my personal profile on the web! I write code!</p>
+	  </blockquote>
+	</div>
+      </div>
+      <div class="row">
+	<div class="col-md-12">
+	  <div class="page-header">
+	    <h2>Projects <small>Previous & Current</small></h2>
+	  </div>
+	</div>
+      </div>
+      <div class="row">
+	<div class="col-md-4">
+	  <div class="thumbnail">
+	    <div class="wide-thumb">
+	      <img src="https://octodex.github.com/images/benevocats.png"/>
+	    </div>
+	    <div class="caption">
+	      <h3 data-type="repository" data-user="SOASTA" data-repository="boomerang">Boomerang</h3>
+	      <p>Well regarded Real User Monitoring project for tracking webperformance in a myriad of aspects</p>
+	      <p>Initially worked on it as an Open Source Contributor and transferred in doing it regularly as a full time developer at <a href="http://soasta.com>">SOASTA Inc.</a></p>
+	      <p>
+		<div class="tags">
+		  Tags: 
+		  <span>Javascript</span>,
+		  <span>Web</span>,
+		  <span>Performance</span>,
+		  <span>Realtime</span>
+		</div>
+	      </p>
+	      <p><a class="btn btn-default" href="https://github.com/SOASTA/boomerang">Project Link</a></p>
+	    </div>
+	  </div>
+	</div>
+	<div class="col-md-4">
+	  <div class="thumbnail">
+	    <div class="wide-thumb">
+	      <img src="https://octodex.github.com/images/constructocat2.jpg" class="" alt="" />
+	    </div>
+	    <div class="caption">
 
-	<div class="content" id="resume">
-	  <h1>Resume</h1>
-	  <p> If you want to have a full length CV for your company or a customer to peruse please take the one
-	    on Github <a href="https://github.com/andreas-marschke/Resume/blob/master/resume.tex">Github</a> and
-	    build a pdf from it. Or download the <a href="doc/pdf/resume.pdf">PDF</a> version of it here(WARNING: This may
-	    not be as uptodate as the one on Github).</p>
-	  <h2> Competencies </h2>
-	  <ul>
-	    <h3> Programming Languages </h3>
-	    <li><p>Programming in a variety of Programming Languages from "C-derived" Languages to "Pascal-derived"
-		Languages and LISPian dialects. Following is a list of them and what I have used them for:</p>
-	      <ul>
-		<li><p><em>C:</em> Basic C coding for a basic UNIX init system that is faster and more sufficiant for an HTPC booting quickly and beautifully<p>
-		</li>
-		<li><p><em>C++:</em> development of GUI applications on a cross plattform basis using Qt and KDE libraries for a variety of tasks.</p></li>
-		<li><p><em>C#:</em> used for the development of a virtualized drumpad at that time only available as a hardware device leveraging the .Net 2.0 framework and DirectSound</p></li>
-		<li><p><em>JavaScript:</em> used for a live visualization of Data in a perl web project using <a href="http://documentcloud.github.com/backbone/">Backbone.js</a> as an MVC and <a>rickshaw.js</a> as a SVG-Graphing library</p></li>
-		<li><p><em>Perl:</em> My personel lingua franca and favourite scripting language. Used for Web/Server/Desktop development mainly with Mojolicious. Otherwise used as a handy tool for day to day automation as an admin or for simple webscraping tasks that do go beyond the usual sed/grep/awk toolchain, because it would be too complex.</p></li>
-		<li><p><em>Shell(bash and sh):</em> usually taken as a scripting language for automation or simple scripting concerning initialization of a tasks, services and building fullblown Operating Systems</p></li>
-		<li><p><em>Elisp:</em> As a <a href="http://www.gnu.org/software/emacs/">GNU EMACS</a> user it is normal to write the configuration and applications for it in Elisp I personally developed a binding to mocp from EMACS</li>
-		<li><p><em>Delphi:</em> As a student and a intern I used this language to support and enhance a legacy application internal to the company I had my internship with</p></li>
-	      </ul>
-	    </li>
-	    <h3>Operating Systems</h3>
-	    <li><p>During my time as admin apprentice and privately I used a variety of Operating Systems to manage and provide services to customers or myself:</p>
-	      <ul>
-		<li><p><em>Windows:</em> Starting out as a small time developer I learned programming on a Windows XP System using Visual Studio</p></li>
-		<li><p><em>OpenSuse:</em> since version 10.3 it was my personal Desktop and my entry into the World of *NIX based systems</p></li>
-		<li><p><em>Debian:</em> Recommended to me by my first employer/internship coordinator I started learning to use Debian and got interested in packaging applications</p></li>
-		<li><p><em>CentOS:</em> for a quick deployment of a standard application with only a minimal amount of configuration CentOS is one of the easiest to use linuxicys We use it at my current apprenticeship for fast setup and
-		    installation of evaluated software or webservers concerned with caching</p></li>
-		<li><p><em>Windows Server:</em> since my current apprenticeship is in a large ASP.Net based service provider I have to manage a great amount of uptodate or older windows servers. Mostly 2k8 R2 these days though</p></li>
-	      </ul>
-	    </li>
-	    <h3>Hardware Systems</h3>
-	    <li><p>Through my current job I came in contact with a lot of hardware and subsequent solutions to our problems</p>
-	      <ul>
-		<li><p><em>HP DLxxx Servers:</em> We are a customer of HP systems and use a lot of heir hardware from Storage to Server technology and have been happy for most of the time with their solutions</p></li>
-		<li><p><em>Cisco Switches:</em> Having completed the DHomesB Curriculum and using them for work as Ethernet Switches I used and administrated a couple of generations of their switching technology</p></li>
-	      </ul>
-	    </li>
-	  </ul>
-</ul>
-</div>
-</div>
-</div>
-<div class="footer">
-  Copyright © 2012 Andreas Marschke<br/>
-  Mail @ <a href="mailto:andreas-marschke@gmail.com">Andreas Marschke</a> for complaints<br/>
-  <a href="README.md">Impressum</a>
-</div>
-</body>
+	      <h3 data-type="repository" data-user="andreas-marschke" data-repository="nagios-nrpe">Nagios::NRPE</h3>
+	      <p>A simple pure perl client/server protocol implementation for the Nagios Remote Plugin Executor Protocol.</p>
+	      <p>It has been taken over by a team over at the <a href="https://github.com/stockholmuniversity">University of Stockholm on Github</a></p>
+	      <p>
+		<div class="tags">
+		  Tags:
+		  <span>Perl</span>,
+		  <span>Server</span>,
+		  <span>Monitoring</span>,
+		  <span>Nagios</span>,
+		  <span>Network Protocols</span>
+		</div>
+	      </p>
+	      <p><a class="btn btn-default" href="https://github.com/stockholmuniversity/nagios-nrpe">Project Link</a></p>
+	    </div>
+	  </div>
+	</div>
+	<div class="col-md-4">
+	  <div class="thumbnail">
+	    <div class="wide-thumb">
+	      <img src="https://octodex.github.com/images/collabocats.jpg" style="top: -60px; position: relative;"/>
+	    </div>
+	    <div class="caption">
+	      <h3 data-type="repository" data-user="andreas-marschke" data-repository="express-session-multicast">Express Session Multicast</h3>
+	      <p>Share your web session data in your cluster of Express Servers without requiring a backend session storage service.</p>
+	      <p>This is inspired by the original Tomcat session sharing mechanic where multiple servers can share the same session data without requiring the currently oft used secondary services to store and manage your session data</p>
+	      <p><a class="btn btn-default" href="">Project Link</a></p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <script src="/assets/vendor/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/vendor/underscore/underscore-min.js" type="text/javascript"></script>
+    <script src="/assets/js/project-hover.js" type="text/javascript"></script>
+    <script type="text/javascript">
+     window.BOOMR_config = {
+	 autorun: true,
+	 Backbone: {
+	     enabled: false
+	 }
+     };
+    </script>
+  </body>
 </html>

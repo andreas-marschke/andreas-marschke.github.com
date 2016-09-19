@@ -1,0 +1,22 @@
+{
+  "name": "andreas-marschke.github.com",
+  "description": "My Personal Page on the Web",
+  "main": "index.html",
+  "authors": [
+    "Andreas Marschke <info@andreas-marschke.name>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "web",
+    "profile"
+  ],
+  "homepage": "https://github.com/andreas-marschke/andreas-marschke.github.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/",
+    "test",
+    "tests"
+  ]
+}

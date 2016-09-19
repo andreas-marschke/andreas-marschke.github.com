@@ -1,0 +1,33 @@
+{
+  "name": "andreas-marschke.github.com",
+  "version": "1.0.0",
+  "description": "My Personal Page on the Web",
+  "main": "index.html",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreas-marschke/andreas-marschke.github.com.git"
+  },
+  "keywords": [
+    "web",
+    "profile"
+  ],
+  "author": "Andreas Marschke <info@andreas-marschke.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreas-marschke/andreas-marschke.github.com/issues"
+  },
+  "homepage": "https://github.com/andreas-marschke/andreas-marschke.github.com#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}
