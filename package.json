@@ -1,0 +1,19 @@
+{
+  "name": "www.andreas-marschke.name",
+  "version": "1.0.0",
+  "description": "Website and Static content for www.andreas-marschke.name",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Marschke <mail@andreas-marschke.name>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.0.1"
+  }
+}

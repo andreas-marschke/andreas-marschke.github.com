@@ -1,0 +1,136 @@
+---
+---
+// font-family: 'Playfair Display', serif; -- Headings
+// font-family: 'Karla', sans-serif; -- Body Content, links
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+.content {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  em {
+    font-style: italic;
+  }
+  strong {
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .post {
+    .post-content {
+      margin-top: 10px;
+    }
+  }
+  ul {
+    margin: 0px;
+    list-style-type: none;
+    li:before {
+      margin-right: 6px;
+      content: "–";
+    }
+  }
+  .contact {
+    
+    .social-icon {
+      .fa {
+        font-size: 5em;
+      }
+    }
+  }
+
+  pre, code {
+    font-size: 12px;
+  }
+
+  pre {
+    padding: 0.5em 0.75em;
+  }
+}
+
+.posts {
+  .hero-body {
+    padding-left: 0px;
+  }
+  .card {
+    margin-bottom:10px;
+  }
+}
+
+section.posts {
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #4a4a4a;
+}
+
+.posts {
+  .card {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    .card-content {
+      padding-left: 0.5em
+    }
+    .description {
+      font-size: 16px;
+    }
+    .date {
+      color: #afafaf;
+      font-size: 14px;
+    }
+    
+    .title a {
+      color: #3e3e3e;
+      font-family: "Playfair Display";
+    }
+
+    .title a:hover {
+      border-bottom: solid 1px #3f3f3f;
+    }
+  }
+  
+}
+
+.hero {
+  .hero-body {
+    padding-bottom: 16px;
+    padding-top:0px;
+    .subtitle {
+      font-size: 13px;
+      color: #afafaf;
+      font-family: 'Karla', sans-serif;
+    }
+  }
+}
+
+pre, code {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+}
+
+.hero-body {
+  padding-top: 16px;
+}
+
+.navbar {
+  border-bottom-width: 1px;
+  border-bottom-color: #ddd;
+  border-bottom-style: solid;
+
+  @media screen and (min-width: 1008px) {
+    .navbar-item, .navbar-link {
+      font-size: 20px;
+      font-family: 'Playfair Display', serif;
+      color: #333;
+    }
+    a.navbar-item:hover, a.navbar-link:hover {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #4a4a4a;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "www.andreas-marschke.name",
+  "description": "Website and Static content for www.andreas-marschke.name",
+  "main": "index.md",
+  "authors": [
+    "Andreas Marschke <mail@andreas-marschke.name>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.4.4",
+    "font-awesome": "fontawesome#^4.7.0",
+    "highlightjs": "^9.12.0"
+  }
+}

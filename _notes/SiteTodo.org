@@ -1,0 +1,15 @@
+* Home Page Content
+ - Needs proper content
+   
+* TODO Blog Posts
+  Stick with current style of no hero image try to find better alternative
+
+** DONE Remove Hero Image content changes in markup and stylesheets
+
+* DONE Impress
+  Requires Content
+
+* SEO
+  Add SEO Tags and references regarding crosslinking of content & social connects
+
+

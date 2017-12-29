@@ -1,0 +1,75 @@
+* Boomerang History and Architecture                           :long:concept:
+
+** Origin
+   - first iteration of what's now Boomerang came from Steve Souders
+   - Later released as episodes missing many features that boomerang provided on it's way to maturity
+   - Pre-Boomerang "RUM" JS https://conferences.oreilly.com/velocity/velocity2008/public/schedule/detail/4404
+   - https://github.com/bluesmoon/netperf-js - previous iteration
+   - Conceived by Philip Tellis around 2010 @ Yahoo
+   - Started as a pure page load monitoring tool with roundtrip timing
+   - Exited Yahoo and started LogNormal based off of data collection based on Boomerang
+   - acquired by SOASTA in late 2012
+   - mPulse was born in 2013 based on data collection via Boomerang
+   - Provided a strong second product next to the already strong leadership position of SOASTA in the Loadtesting market through CloudTest 
+   - evolved into a general page level and beyond metrics collection tool providing users with full control over data collected
+
+** Design
+   - Design is a self-contained eco-system bringing all the tools necessary
+   - Expects hostile-environment
+     - Expectations set through experience and deployments on hundreds of sites in a myriad of development and web environments
+     - feature tests used to validate that what we receive as data from the environment matches with our expectations
+     - flunky `window.performance` polyfills
+       - https://github.com/julianshapiro/velocity/issues/762
+     - bad spec implementations
+       - https://bugs.chromium.org/p/chromium/issues/detail?id=465641
+   - Uses feature detection to use more modern tooling in browsers (MutationObservers, ResourceTiming, NavigationTiming, HTML5 History support)
+   - New monitoring features added via plugins
+   - Almost all beaconed data is from a plugin
+   - Plugins provide an external API and an internal workflow
+   - use closures to only expose required functionality
+   - minimal API Surface so as to not break measurements
+
+** Features
+   - Page performance timing
+     - onload, resourcetiming, XHR monitoring
+   - Resource fetch monitoring in context of interactions (Click, XHR, DOM Mutations)
+   - Continuity
+   - Auto-Inclusion of Custom Javascript Plugins if defined on the page and not shipped with Boomerang build
+   - SPA Integration for almost every conceivable SPA we've come across so far
+   - Session level aggregation of load and performance metrics ie. load over session describing how the overall experience was for the user
+
+** Links
+   - Project: http://github.com/soasta/boomerang
+   - Online Docs http://docs.soasta.com/boomerang/
+   - OSS (Semi-Outdated): https://soasta.github.io/boomerang/doc/  
+   - Commercial Collections & Aggregation https://www.akamai.com/us/en/products/web-performance/mpulse.jsp
+   - OSS Projects around Boomerang:
+     - https://github.com/springernature/boomcatch
+     - https://github.com/andreas-marschke/boomerang-express
+   - Presentations based on Boomerang Work/Research
+     - http://nicj.net/measuring-continuity/
+     - http://nicj.net/measuring-real-user-performance-in-the-browser/
+     - https://conferences.oreilly.com/velocity/devops-web-performance-ny-2015/public/schedule/detail/44207
+     - https://conferences.oreilly.com/velocity/velocity2014/public/schedule/detail/35302
+     - https://de.slideshare.net/bluesmoon/presentations
+     - https://de.slideshare.net/nicjansma/presentations
+   - OSS Projects used by Boomerang
+     - https://github.com/nicjansma/usertiming-compression.js
+     - https://github.com/nicjansma/resourcetiming-compression.js
+* d3 & KotoJS                                               :tentative:short:
+* JSDoc making your own template                    :concepts:datastructures:
+** TaffyDB
+** Tags
+*** Custom Tags
+** Designing
+** Infrastructure
+
+* WebFonts, Performance and you                                       :short:
+** Based on work in Boomerang
+   https://github.com/SOASTA/soasta-boomerang/issues/490
+** UserTiming API
+** Webfonts Performance impact                               :research:links:
+** TTI & Visual Complete                                         :links:nicj:
+
+* CMDBuild, Developing & Designing a DataModel for your ITIL Environment :tentative:concepts
+* AspectJ for RUM in mobile Applications :needs-ack:
