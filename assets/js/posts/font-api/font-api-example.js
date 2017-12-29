@@ -46,7 +46,7 @@
 	  exceptionHandling(ex);
     }
 
-	document.addEventListener("load", function() {
+	window.addEventListener("onload", function() {
 	  var t_str = '<table class="table is-bordered is-striped is-narrow is-fullwidth">';
 	  t_str += '<thead> <tr> <th>Name</th> <th>Loaded ms after Navigation Start</th> </tr> </thead>';
 	  t_str += '<tbody>';
