@@ -50,9 +50,18 @@
 	  var t_str = '<table class="table is-bordered is-striped is-narrow is-fullwidth">';
 	  t_str += '<thead> <tr> <th>Name</th> <th>Loaded ms after Navigation Start</th> </tr> </thead>';
 	  t_str += '<tbody>';
+
+	  var entries = window.performance.getEntriesByType("mark");
+
+	  for (var i = 0; i < entries.length; i++) {
+		var entry = entries[i];
+		t_str += "<tr> <td><code>" + entry.name  + "</code></td> <td>" + entry.startTime + "</td> </tr>";
+	  }
 	  
-	  t_str += "<tr> <td>" +  + "</td> <td>" + + "</td> </tr>";
 	  t_str += '</tbody></table>';
+
+	  var el = document.getElementById("fonts-perf-list");
+	  el.innerHTML = t_str;
 	});
   }
   else {
