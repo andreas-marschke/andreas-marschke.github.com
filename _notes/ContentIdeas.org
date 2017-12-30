@@ -64,7 +64,7 @@
 ** Designing
 ** Infrastructure
 
-* WebFonts, Performance and you                                       :short:
+* DONE WebFonts, Performance and you                                  :short:
 ** Based on work in Boomerang
    https://github.com/SOASTA/soasta-boomerang/issues/490
 ** UserTiming API
@@ -72,4 +72,3 @@
 ** TTI & Visual Complete                                         :links:nicj:
 
 * CMDBuild, Developing & Designing a DataModel for your ITIL Environment :tentative:concepts
-* AspectJ for RUM in mobile Applications :needs-ack:
