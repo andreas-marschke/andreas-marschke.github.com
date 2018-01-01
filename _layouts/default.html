@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description }}"/>
     <meta name="viewport" content="width=device-width"/>
     {% include metadata.html %}
     {% include styles.html %}
     <link rel="stylesheet" href="/assets/css/vendor.min.css"/>
     <link rel="stylesheet" href="/assets/css/basic.css"/>
-    <!--
+
     <script>
     (function(){
         if (window.BOOMR && window.BOOMR.version) { return; }
@@ -41,8 +40,8 @@
             var js = this.createElement("script");
             if (dom) { this.domain = dom; }
             js.id = "boomr-if-as";
-            js.src = "https://c.go-mpulse.net/boomerang/" +
-                     "QQLRL-F3PM4-DXMSL-DNST4-Q45DF";
+            js.src = "//c.go-mpulse.net/boomerang/" +
+                     "{{ site.soasta_api_key }}";
             BOOMR_lstart=new Date().getTime();
             this.body.appendChild(js);
         };
@@ -50,7 +49,6 @@
         doc.close();
     })();
     </script>
-       -->
     {% if page.extrajs_head %}
       {% for js in page.extrajs_head %}
     <script type="text/javascript" src="{{ js }}"></script>

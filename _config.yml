@@ -27,8 +27,10 @@ author: Andreas Marschke
 # Ensure permalinks use dates as URLs not the category
 permalink: /posts/:year/:month/:day/:title.html
 
+soasta_api_key: QQLRL-F3PM4-DXMSL-DNST4-Q45DF
+
 # Paginate default paths
-paginate_path: "/blog/page/:num/"
+paginate_path: "/posts/page/:num/"
 paginate: 1
 
 # Build settings
