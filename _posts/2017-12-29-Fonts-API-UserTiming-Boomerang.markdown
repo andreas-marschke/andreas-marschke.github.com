@@ -157,8 +157,8 @@ boomerang: [debug] Ready to send beacon:
 	t_done=2546
 	t_other=boomerang|2,boomr_fb|2443,boomr_ld|1165,boomr_lat|1278
 	...
-	restiming={"http":{"://vpn.andreas-marschke.name/":{...}}}
-	u=http://shop.andreas-marschke.name/
+	restiming={"http":{"://www.andreas-marschke.name/":{...}}}
+	u=http://web.andreas-marschke.name/
 	v=1.0.1514544714
 	...
 	pid=svcbw6yv
@@ -227,3 +227,4 @@ Happy Hacking!
 
 To demo this working in this page as long as `document.fonts` is available, here is a table of marks based on the WebFonts used on this site:
 <div id="fonts-perf-list"></div>
+
