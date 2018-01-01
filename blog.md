@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: /posts/
+permalink: /blog/
 ---
 <div class="column is-8 is-offset-2">
 <section class="hero posts">
