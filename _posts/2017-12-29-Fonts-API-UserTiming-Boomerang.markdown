@@ -19,7 +19,7 @@ slowly, due to optimization problems, size contraints and the bandwidth any give
 
 As a result you'll have issues such as these:
 
-![Text flashing into existance]({{ "/assets/img/posts/font-api/flash-of-unstyled-text.gif" | absolute_url }})
+![Text flashing into existance]({{site.base_url}}{{ "/assets/img/posts/font-api/flash-of-unstyled-text.gif" | absolute_url }})
 
 To track how long it takes for each font to load into the document on a client we have the [Font Loading API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Font_Loading_API).
 
@@ -87,7 +87,7 @@ font to load and how long overall font loading took:
 Once this is added to the page we can find UserTiming entries in Developer Tools Console:
 
 
-![Developer Tools User Timing]({{ "/assets/img/posts/font-api/user-timing-api-performance-marks-fonts.png" | absolute_url }})
+![Developer Tools User Timing]({{site.base_url}}{{ "/assets/img/posts/font-api/user-timing-api-performance-marks-fonts.png" | absolute_url }})
 
 <br />
 
