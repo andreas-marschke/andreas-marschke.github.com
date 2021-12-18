@@ -1,0 +1,129 @@
+@charset "UTF-8";
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif; }
+
+.content {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+  .content em {
+    font-style: italic; }
+  .content strong {
+    font-weight: 700; }
+  .content h1 {
+    font-size: 40px; }
+  .content .post .post-content {
+    margin-top: 10px; }
+  .content ul {
+    margin: 0px;
+    list-style-type: none; }
+    .content ul li:before {
+      margin-right: 6px;
+      content: "–"; }
+  .content .contact .social-icon .fa {
+    font-size: 5em; }
+  .content pre, .content code {
+    font-size: 12px; }
+  .content pre {
+    padding: 0.5em 0.75em; }
+
+.posts .hero-body {
+  padding-left: 0px; }
+
+.posts .card {
+  margin-bottom: 10px; }
+
+section.posts {
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #4a4a4a; }
+
+.posts .card {
+  box-shadow: none;
+  -webkit-box-shadow: none; }
+  .posts .card .card-content {
+    padding-left: 0.5em; }
+  .posts .card .description {
+    font-size: 16px; }
+  .posts .card .date {
+    color: #afafaf;
+    font-size: 14px; }
+  .posts .card .title a {
+    color: #3e3e3e;
+    font-family: "Playfair Display"; }
+  .posts .card .title a:hover {
+    border-bottom: solid 1px #3f3f3f; }
+
+.hero .hero-body {
+  padding-bottom: 16px;
+  padding-top: 0px; }
+  .hero .hero-body .subtitle {
+    font-size: 13px;
+    color: #afafaf;
+    font-family: 'Karla', sans-serif; }
+
+pre, code {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px; }
+
+.hero-body {
+  padding-top: 16px; }
+
+.navbar {
+  border-bottom-width: 1px;
+  border-bottom-color: #ddd;
+  border-bottom-style: solid; }
+  @media screen and (min-width: 1008px) {
+    .navbar .navbar-item, .navbar .navbar-link {
+      font-size: 20px;
+      font-family: 'Playfair Display', serif;
+      color: #333; }
+    .navbar a.navbar-item:hover, .navbar a.navbar-link:hover {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #4a4a4a;
+      background-color: #fff;
+      color: #000; } }
+
+.slideshow .slide {
+  padding-top: 300px;
+  background-size: cover;
+  background-position: center center; }
+  .slideshow .slide .text {
+    background-color: rgba(200, 200, 200, 0.9);
+    color: #000;
+    padding: 30px; }
+    .slideshow .slide .text h1 {
+      color: #000; }
+
+@media screen and (max-width: 640px) {
+  [data-background="nasa-Q1p7bh3SHj8-unsplash"] {
+    background-image: url("/assets/img/stock/nasa-Q1p7bh3SHj8-unsplash-small-size.jpg"); }
+  [data-background="thomas-jensen-ISG-rUel0Uw-unsplash"] {
+    background-image: url("/assets/img/stock/thomas-jensen-ISG-rUel0Uw-unsplash-small-size.jpg"); }
+  [data-background="alina-grubnyak-ZiQkhI7417A-unsplash"] {
+    background-image: url("/assets/img/stock/alina-grubnyak-ZiQkhI7417A-unsplash-small-size.jpg"); }
+  [data-background="omar-flores-MOO6k3RaiwE-unsplash"] {
+    background-image: url("/assets/img/stock/omar-flores-MOO6k3RaiwE-unsplash-small-size.jpg"); } }
+
+@media screen and (max-width: 1200px) {
+  [data-background="nasa-Q1p7bh3SHj8-unsplash"] {
+    background-image: url("/assets/img/stock/nasa-Q1p7bh3SHj8-unsplash-mid-size.jpg"); }
+  [data-background="thomas-jensen-ISG-rUel0Uw-unsplash"] {
+    background-image: url("/assets/img/stock/thomas-jensen-ISG-rUel0Uw-unsplash-mid-size.jpg"); }
+  [data-background="alina-grubnyak-ZiQkhI7417A-unsplash"] {
+    background-image: url("/assets/img/stock/alina-grubnyak-ZiQkhI7417A-unsplash-mid-size.jpg"); }
+  [data-background="omar-flores-MOO6k3RaiwE-unsplash"] {
+    background-image: url("/assets/img/stock/omar-flores-MOO6k3RaiwE-unsplash-mid-size.jpg"); } }
+
+@media screen and (min-width: 1201px) {
+  [data-background="nasa-Q1p7bh3SHj8-unsplash"] {
+    background-image: url("/assets/img/stock/nasa-Q1p7bh3SHj8-unsplash-large-size.jpg"); }
+  [data-background="thomas-jensen-ISG-rUel0Uw-unsplash"] {
+    background-image: url("/assets/img/stock/thomas-jensen-ISG-rUel0Uw-unsplash-large-size.jpg"); }
+  [data-background="alina-grubnyak-ZiQkhI7417A-unsplash"] {
+    background-image: url("/assets/img/stock/alina-grubnyak-ZiQkhI7417A-unsplash-large-size.jpg"); }
+  [data-background="omar-flores-MOO6k3RaiwE-unsplash"] {
+    background-image: url("/assets/img/stock/omar-flores-MOO6k3RaiwE-unsplash-large-size.jpg"); } }
+
+/*# sourceMappingURL=basic.css.map */

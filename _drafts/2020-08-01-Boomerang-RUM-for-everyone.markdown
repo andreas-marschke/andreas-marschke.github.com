@@ -43,7 +43,7 @@ serving as a powerful DPM tool to demonstrate the value of validating performanc
 
 With the LoadTesting aspect covered the SOASTA team decided to acquire LogNormal in late
 [2012](www.lognormal.com/blog/2012/10/01/lognormal-acquired-by-soasta/). With the kings RUM on
-their side their side the DPM portfolio was bound to grow.
+their side the DPM portfolio was bound to grow.
 
 ## How Does Boomerang Work?
 
@@ -51,7 +51,7 @@ Boomerang works based on a plugin infrastructure providing most of the beaconed 
 means the `boomerang.js` file without any plugins provides facilities to collect data but does
 not collect any data by itself.
 
-By default Boomerang only sends a beacon once onload has finished and all plugins have completed their run.
+By default Boomerang only sends a beacon once `onload` has finished and all plugins have completed their run.
 This means we can allow boomerang to wait a little longer or force it to send a beacon at a later point in time based
 on the plugins being run.
 

@@ -17,11 +17,18 @@ metrics on the Web and native Mobile Environments.
 In my freetime I concern myself with various open source and development projects, administration and
 pushing things forward.
 
-A selection of my projects:
+## Open Source
+A selection of my projects I'm proud to have contributed to or implemented myself:
 
- - [Pure Perl implementation of the NRPE Protocol](https://github.com/stockholmuniversity/nagios-nrpe) now maintained by the [University of Stockholm](http://www.su.se/english/)
- - [Boomerang](https://github.com/soasta/boomerang) Open Source Real User Monitoring, mainly as contributor and not original author
- - [Multicast Session Replication](https://github.com/andreas-marschke/express-session-multicast) inspired by Tomcat, implemented for Express
- - [Boomerang Express](https://github.com/andreas-marschke/boomerang-express) a Boomerang Beacon Collection agent
+#### Perl
 
+[Pure Perl implementation of the NRPE Protocol](https://github.com/stockholmuniversity/nagios-nrpe) now maintained by the [University of Stockholm](http://www.su.se/english/)
 
+#### express.js
+
+[Multicast Session Replication](https://github.com/andreas-marschke/express-session-multicast) inspired by Tomcat, implemented for Express
+
+#### Real User Monitoring
+
+[Boomerang](https://github.com/soasta/boomerang) Open Source Real User Monitoring, mainly as contributor and not original author
+[Boomerang Express](https://github.com/andreas-marschke/boomerang-express) a Boomerang Beacon Collection agent
