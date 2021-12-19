@@ -55,9 +55,11 @@ By default Boomerang only sends a beacon once `onload` has finished and all plug
 This means we can allow boomerang to wait a little longer or force it to send a beacon at a later point in time based
 on the plugins being run.
 
-
-
 ## What Can I Monitor with Boomerang?
+
+> NOTE: Boomerang is constantly evolving as the web and digital performance space advances into the future.
+> Should this inevitably become out of date, please have a look at the original [project](https://github.com/akamai/boomerang) page.
+
 
 ## Boomerang and your Frontend JS
 
